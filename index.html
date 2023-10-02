@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Drum Stick</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+            crossorigin="anonymous"
+        >
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <body>
+            <div class="container mt-5">
+                <div class="whole">
+                    <h3>Online - Drum Kit 🥁</h3>
+                    <p>Click to play your own music</p>
+                    <div class="keys">
+                        <div data-key="65" class="key" style="border: .4rem solid rgb(232, 24, 24);">
+                            <kbd>A</kbd>
+                            <span class="sound">clap</span>
+                        </div>
+                        <div data-key="83" class="key" style="border: .4rem solid rgb(226, 169, 37);">
+                            <kbd>S</kbd>
+                            <span class="sound">hihat</span>
+                        </div>
+                        <div data-key="68" class="key" style="border: .4rem solid rgb(90, 218, 43);">
+                            <kbd>D</kbd>
+                            <span class="sound">kick</span>
+                        </div>
+                        <div data-key="70" class="key" style="border: .4rem solid rgb(59, 219, 198);">
+                            <kbd>F</kbd>
+                            <span class="sound">openhat</span>
+                        </div>
+                        <div data-key="71" class="key" style="border: .4rem solid rgb(59, 147, 219);">
+                            <kbd>G</kbd>
+                            <span class="sound">boom</span>
+                        </div>
+                        <div data-key="72" class="key" style="border: .4rem solid rgb(47, 24, 177);">
+                            <kbd>H</kbd>
+                            <span class="sound">ride</span>
+                        </div>
+                        <div data-key="74" class="key" style="border: .4rem solid rgb(120, 59, 219);">
+                            <kbd>J</kbd>
+                            <span class="sound">snare</span>
+                        </div>
+                        <div data-key="75" class="key" style="border: .4rem solid rgb(186, 54, 222);">
+                            <kbd>K</kbd>
+                            <span class="sound">tom</span>
+                        </div>
+                        <div data-key="76" class="key" style="border: .4rem solid rgb(219, 59, 206);">
+                            <kbd>L</kbd>
+                            <span class="sound">tink</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <audio data-key="65" src="sounds/clap.wav"></audio>
+            <audio data-key="83" src="sounds/hihat.wav"></audio>
+            <audio data-key="68" src="sounds/kick.wav"></audio>
+            <audio data-key="70" src="sounds/openhat.wav"></audio>
+            <audio data-key="71" src="sounds/boom.wav"></audio>
+            <audio data-key="72" src="sounds/ride.wav"></audio>
+            <audio data-key="74" src="sounds/snare.wav"></audio>
+            <audio data-key="75" src="sounds/tom.wav"></audio>
+            <audio data-key="76" src="sounds/tink.wav"></audio>
+        </body>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
